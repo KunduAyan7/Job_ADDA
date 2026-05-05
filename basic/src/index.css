@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#72383D;
+  line-height: 1.5;
+}
+.header{
+
+  padding: 20px 50px;
+  position:sticky ;
+  top:0;
+  
+}
+.navbar{
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  text-align: center;
+  background-color: aquamarine;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+.logo1{
+  font-size: 30px;
+  letter-spacing: 2px;
+  
+}
+.nav-links{
+  list-style:none;
+  display:flex;
+  gap: 20px;
+}
+.nav-links li a{
+  text-decoration: none;
+  color: rgb(3, 5, 19);
+  font-size: 17px;
+}
+.nav-links li a:hover{
+  color:rgb(12, 56, 151);
+}
+
+
+.home {
+  height: 100vh;
+  background-image: url(picture.png);
+  background-size: cover;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.logo{
+  width: 500px;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(15, 143, 143);
+  text-align: center;
+}
+
+
+
+.home-subtitle {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: rgb(3, 145, 97);
+  text-align:center;
+}
+
+.jobs{
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.box-section {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 155px;
+  padding: 55px;
+  background: #FAF9F6;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(194, 17, 17, 0.973);
+  transition: 0.3s;
+  text-align: center;
+  color:orangered;
+  margin-top: 20px;
+}
+.box-link{
+  text-decoration: none;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+}
+
+.about-section {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fafafa;
+}
+
+.about-section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #080505;
+}
+
+.about-section p {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+  color: #0a0909;
+  line-height: 1.6;
+}
+
+
+.contact{
+  padding: 50px 20px;
+  text-align: center;
+  background: #f9f9f9;
+  color: black;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;     
+}
+
+.contact-container {
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+  
+  
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 350px;
+  
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #050000;
+  border-radius: 5px;
+  
+}
+
+.contact-form button {
+  padding: 10px;
+  background: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #084298;
+}
+.contact-info{
+  margin-top: 20px;
+}
+
+
+.footer {
+  background: #020617;
+  text-align: center;
+  padding: 20px;
+  color: #aaa;
+  font-size: 14px;
+}
+
+
+
+
+
